@@ -1,0 +1,16 @@
+# Go binaries and cache
+/backend/*.exe  # Windows executables
+/backend/*.o    # Object files
+/backend/*.test # Go test binaries
+/backend/tmp/   # Temporary directories
+
+# IDE and OS generated files that might appear anywhere in the repo
+.DS_Store
+.env
+# You could put .vscode/, .idea/ here if you want them ignored for *both* frontend and backend
+# Otherwise, keep them specific in frontend/ or backend/
+
+# VS Code specific for the root if you open the whole project
+/.vscode/
+# IntelliJ IDEA specific for the root
+/.idea/
